@@ -20,7 +20,7 @@ Event: Ninth International Conference on Graphic and Image Processing, 2017, Qin
 
 Guimei Cao; Xuemei Xie; Wenzhe Yang; Quan Liao; Guangming Shi; Jinjian Wu
 
-4. [Small Object Detection with Multiscale Features](https://www.researchgate.net/publication/327986927_Small_Object_Detection_with_Multiscale_Features)
+5. [Small Object Detection with Multiscale Features](https://www.researchgate.net/publication/327986927_Small_Object_Detection_with_Multiscale_Features)
 
 
  
