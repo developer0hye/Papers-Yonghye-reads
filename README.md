@@ -8,3 +8,7 @@ S´ergio Montazzolli Silva et al. 2018 ECCV
 
 Under submission to CVPR 2017 
 Minyoung Huh, Pulkit Agrawal, Alexei A. Efros, NIPS LSCVS 2016 Workshop (Oral)
+
+3. [Path Aggregation Network for Instance Segmentation](https://arxiv.org/abs/1803.01534v4)
+
+Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, Jiaya Jia, CVPR 2018
