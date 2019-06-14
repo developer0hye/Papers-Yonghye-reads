@@ -19,3 +19,9 @@ Proceedings Volume 10615, Ninth International Conference on Graphic and Image Pr
 Event: Ninth International Conference on Graphic and Image Processing, 2017, Qingdao, China
 
 Guimei Cao; Xuemei Xie; Wenzhe Yang; Quan Liao; Guangming Shi; Jinjian Wu
+
+4. [Small Object Detection with Multiscale Features](https://www.researchgate.net/publication/327986927_Small_Object_Detection_with_Multiscale_Features)
+
+
+ 
+ Guo X. Hu, Zhong Yang, Lei Hu, Li Huang, and Jia M. Han1,  International Journal of Digital Multimedia Broadcasting 2018
