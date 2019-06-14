@@ -12,3 +12,10 @@ Minyoung Huh, Pulkit Agrawal, Alexei A. Efros, NIPS LSCVS 2016 Workshop (Oral)
 3. [Path Aggregation Network for Instance Segmentation](https://arxiv.org/abs/1803.01534v4)
 
 Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, Jiaya Jia, CVPR 2018
+
+4. [Feature-Fused SSD: Fast Detection for Small Objects ](https://arxiv.org/abs/1709.05054)
+
+Proceedings Volume 10615, Ninth International Conference on Graphic and Image Processing (ICGIP 2017); 106151E (2018) https://doi.org/10.1117/12.2304811
+Event: Ninth International Conference on Graphic and Image Processing, 2017, Qingdao, China
+
+Guimei Cao; Xuemei Xie; Wenzhe Yang; Quan Liao; Guangming Shi; Jinjian Wu
