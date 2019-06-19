@@ -22,6 +22,8 @@ Guimei Cao; Xuemei Xie; Wenzhe Yang; Quan Liao; Guangming Shi; Jinjian Wu
 
 5. [Small Object Detection with Multiscale Features](https://www.researchgate.net/publication/327986927_Small_Object_Detection_with_Multiscale_Features)
 
-
- 
  Guo X. Hu, Zhong Yang, Lei Hu, Li Huang, and Jia M. Han1,  International Journal of Digital Multimedia Broadcasting 2018
+ 
+ 6. [R^2-CNN: Fast Tiny Object Detection in Large-Scale Remote Sensing Images](https://arxiv.org/abs/1902.06042)
+ 
+ Jiangmiao Pang, Cong Li, Jianping Shi, Zhihai Xu, Huajun Feng, IEEE Transactions on Geoscience and Remote Sensing 2019
