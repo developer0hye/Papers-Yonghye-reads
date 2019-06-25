@@ -35,7 +35,7 @@ Zhiqiang Shen, Zhuang Liu, Jianguo Li, Yu-Gang Jiang, Yurong Chen, Xiangyang Xue
 ```
 Object Detection 을 위해 제안된 대부분의 모델은 해당 모델의 Backbone network 을 Imagenet 데이터셋을 이용하여 Pretrain 시킨 후 
 
-Object Detection 데이터셋을 이용하여 finetuning 을 해왔다. 
+Object Detection 데이터셋을 이용하여 finetuning 을 하는 형태로 학습을 진행했다.
 
 저자들은 이를 문제점으로 제기하고 scratch(pretrain 되어 있지 않은 randomly 초기화된)부터 학습 가능한 네트워크 구조를 제안했다.
 ```
