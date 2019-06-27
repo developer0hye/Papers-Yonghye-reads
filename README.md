@@ -28,7 +28,7 @@ Guimei Cao; Xuemei Xie; Wenzhe Yang; Quan Liao; Guangming Shi; Jinjian Wu
  
  Jiangmiao Pang, Cong Li, Jianping Shi, Zhihai Xu, Huajun Feng, IEEE Transactions on Geoscience and Remote Sensing 2019
 
- 6. [DSOD: Learning Deeply Supervised Object Detectors From Scratch](http://openaccess.thecvf.com/content_iccv_2017/html/Shen_DSOD_Learning_Deeply_ICCV_2017_paper.html)
+ 7. [DSOD: Learning Deeply Supervised Object Detectors From Scratch](http://openaccess.thecvf.com/content_iccv_2017/html/Shen_DSOD_Learning_Deeply_ICCV_2017_paper.html)
  
 Zhiqiang Shen, Zhuang Liu, Jianguo Li, Yu-Gang Jiang, Yurong Chen, Xiangyang Xue; The IEEE International Conference on Computer Vision (ICCV), 2017, pp. 1919-1927
 
@@ -38,4 +38,18 @@ Object Detection 을 위해 제안된 대부분의 모델은 해당 모델의 Ba
 Object Detection 데이터셋을 이용하여 finetuning 을 하는 형태로 학습을 진행했다.
 
 저자들은 이를 문제점으로 제기하고 scratch(pretrain 되어 있지 않은 randomly 초기화된)부터 학습 가능한 네트워크 구조를 제안했다.
+```
+
+ 8. [DetNet: A Backbone network for Object Detection](https://arxiv.org/abs/1804.06215)
+ Zeming Li, Chao Peng, Gang Yu, Xiangyu Zhang, Yangdong Deng, Jian Sun, Published in ArXiv 2018
+```
+Object Detection 에 적합한 BackBone Network 제안.
+
+feature map 이 convolution or pooling 을 거치며 downsampling 될 수록 classification 에는 좋은 feature 가 취득 될 수는 있으나, 
+
+localization 에는 부적합할 수 있다. 저자들은 feature map 이 downsampling 되는 정도를 줄임. 그러나 downsampling 이 덜 된 feature map 상에서
+
+convolution 을 거칠 경우 연산량이 높음. 
+
+이런 문제를 해결하기 위해 dilated convolution 을 적용하였고 이를 통해 large receptive field 를 확보하고 small object feature 의 missing 을 줄임.  
 ```
