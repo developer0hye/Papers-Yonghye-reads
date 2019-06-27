@@ -49,7 +49,7 @@ feature map 이 convolution or pooling 을 거치며 downsampling 될 수록 cla
 
 localization 에는 부적합할 수 있다. 저자들은 feature map 이 downsampling 되는 정도를 줄임. 그러나 downsampling 이 덜 된 feature map 상에서
 
-convolution 을 거칠 경우 연산량이 높음. 
+convolution layer 가 증가될 경우 연산량의 증가량이 크게 높음. 
 
 이런 문제를 해결하기 위해 dilated convolution 을 적용하였고 이를 통해 large receptive field 를 확보하고 small object feature 의 missing 을 줄임.  
 ```
