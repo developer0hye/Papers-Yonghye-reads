@@ -53,3 +53,18 @@ convolution layer 가 증가될 경우 연산량의 증가량이 크게 높음.
 
 이런 문제를 해결하기 위해 dilated convolution 을 적용하였고 이를 통해 large receptive field 를 확보하고 small object feature 의 missing 을 줄임.  
 ```
+
+9. [Group Normalization](https://arxiv.org/abs/1803.08494)
+ Yuxin Wu, Kaiming He, ECCV 2018
+ 
+ ```
+ batchnorm 의 문제점 제기: 1. 메모리 사용량이 크다 2. batch 크기에 따라 모델의 성능 변화폭이 크다.
+ 
+ normalization 을 channel 단위로 함.
+ 
+ batch 크기가 달라져도 성능 변화가 적었음.
+ 
+ batchnorm 보다 성능이 약간 떨어지기는 하나 batchnorm 을 적용하기가 어려운 경우가 많은
+ 
+ 실제 application 에 적용하기에 더 practical 함.
+ ```
