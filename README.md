@@ -41,6 +41,7 @@ Object Detection 데이터셋을 이용하여 finetuning 을 하는 형태로 �
 ```
 
  8. [DetNet: A Backbone network for Object Detection](https://arxiv.org/abs/1804.06215)
+ 
  Zeming Li, Chao Peng, Gang Yu, Xiangyu Zhang, Yangdong Deng, Jian Sun, Published in ArXiv 2018
 ```
 Object Detection 에 적합한 BackBone Network 제안.
@@ -55,16 +56,19 @@ convolution layer 가 증가될 경우 연산량의 증가량이 크게 높음.
 ```
 
 9. [Group Normalization](https://arxiv.org/abs/1803.08494)
+
  Yuxin Wu, Kaiming He, ECCV 2018
  
  ```
  batchnorm 의 문제점 제기: 1. 메모리 사용량이 크다 2. batch 크기에 따라 모델의 성능 변화폭이 크다.
  
+ 제안하는 방법
+ 
  normalization 을 channel 단위로 함.
  
+실험 결과 및 결론
+
  batch 크기가 달라져도 성능 변화가 적었음.
  
- batchnorm 보다 성능이 약간 떨어지기는 하나 batchnorm 을 적용하기가 어려운 경우가 많은
- 
- 실제 application 에 적용하기에 더 practical 함.
+ batchnorm 보다 성능이 약간 떨어지기는 하나 batchnorm 을 적용하기가 어려운 경우가 많은 실제 application 에 적용하기에 더 practical 함.
  ```
