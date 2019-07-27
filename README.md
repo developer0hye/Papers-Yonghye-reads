@@ -72,3 +72,15 @@ convolution layer 가 증가될 경우 연산량의 증가량이 크게 높음.
  
  적절한? batch 크기로 학습한 batchnorm 을 적용한 모델 보다는 성능이 아주 약간 떨어지기는 하나 batchnorm 을 적용하기가 어려운 경우가 많은 실제 application 에 적용하기에 더 practical 함.
  ```
+
+10. [CBAM: Convolutional Block Attention Module](https://arxiv.org/abs/1807.06521)
+
+ Sanghyun Woo, Jongchan Park, Joon-Young Lee, In So Kweon, ECCV 2018
+ 
+ ```
+ 적은 Overhead 를 갖는 attention module 제안
+ 
+ 내용이 정말 간단하고 명쾌하다... 
+ 
+ 개인적으로 이름이 마음에 든다.
+ ```
